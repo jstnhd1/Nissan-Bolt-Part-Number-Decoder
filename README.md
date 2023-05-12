@@ -1,15 +1,20 @@
-# Nissan-Bolt-Size-Part-Number-Decoder
-simple python code to extract Bolt sizes from part number should work with nissan, datsun, and infinity early 70s and up
+Bolt Size Extractor
+This is a simple Python code that extracts bolt sizes from part numbers. It is designed to work with Nissan, Datsun, and Infinity vehicles from the early 70s and up.
 
-this is my first piece of code its not perfect but it works.
-run with 
-$python ./decode_bolt.py
+Usage
+To run the code, use the following command:
 
-you will be asked: 
-Enter the part number: example (08120-61628)
+$ python ./decode_bolt.py
 
-the output will be somthing like:
+You will be prompted to enter a part number in the following format:
+
+Enter the part number: 08120-61628
+
+After entering the part number, the code will output the bolt size in the following format:
+
 -6 mm None Hexagon bolt 16mm None
 
-the bolt for part number 08120-61628 has a diameter of 6mm and a leangth of 16mm
+This output indicates that the bolt for part number 08120-61628 has a diameter of 6mm and a length of 16mm.
+
+all information came from http://datsun1200.com/modules/mediawiki/index.php?title=Nissan_Part_Numbers
 
