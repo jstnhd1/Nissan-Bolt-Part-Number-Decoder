@@ -1,4 +1,5 @@
 Bolt Size Extractor
+
 This is a simple Python code that extracts bolt sizes from part numbers. It is designed to work with Nissan, Datsun, and Infinity vehicles from the early 70s and up.
 
 Usage
